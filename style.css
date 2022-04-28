@@ -1,0 +1,25 @@
+.header{
+
+}
+
+
+.nav-link{
+    align-items: center;
+}
+
+.carousel-item{
+    height: 250px;
+}
+
+.carousel-item img{
+    height: 250px;
+}
+
+.carrousel__contenedor{
+    margin-top: 15%;
+}
+
+.logo-flor{
+    height: 50px;
+    width: 50px;
+}
