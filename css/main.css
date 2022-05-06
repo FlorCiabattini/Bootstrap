@@ -1,0 +1,16 @@
+.formulario {
+  background-color: green;
+  width: 10%; }
+
+.header {
+  color: pink;
+  background-color: pink; }
+  
+  .header .navbar {
+    display: flex;
+    justify-content: space-around; }
+    .header .navbar li {
+      background-color: violet; }
+
+.header ul {
+  background-color: aqua; }

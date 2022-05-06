@@ -1,0 +1,19 @@
+.header{
+    color: $color-principal;
+    background-color: pink;
+
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+
+        li{
+            background-color: violet;
+        }
+
+    }
+}
+
+.header ul{
+    background-color: aqua;
+}
+
