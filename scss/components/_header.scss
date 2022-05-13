@@ -17,5 +17,6 @@
 
 .header ul{
     background-color: aqua;
+    @extend %flex-center;
 }
 
