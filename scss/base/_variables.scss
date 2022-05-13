@@ -1,0 +1,98 @@
+$color-principal: pink;
+
+$tamanio-total: 10%;
+
+/* MAPS */
+
+$tamanio-tipografia:(
+    titulos: 24px,
+    subtitulos: 20px,
+    parrafos: 14px,
+    letra-chica: 12px
+    
+);
+
+$colores: (
+    color-principal: green,
+    color-secundario: blue,
+    color-tercero: red,
+);
+
+$redesSociales:(
+    facebook: #3b5998,
+    linkedin: #0e76a8,
+    youtube: #c4302b,
+
+);
+
+/* @each $redSocial, $color in $redesSociales{
+    .icon-#($redSocial){
+        color: $brandcolor;
+        font-size: 14px;
+    }
+};
+ */
+
+
+/* EXTEND */
+
+%flex-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+};
+
+
+/* MIXIN */
+
+/* @include  */
+
+@mixin flexbox ($direction, $align){
+    display: flex;
+    direction: $direction;
+    align-items: $align;
+
+    @if $direction == column {
+        justify-content: center
+    } @else{
+        justify-content: space-evenly
+    }
+};
+
+@mixin botones ($bg-color) {
+    width: fit-content;
+    padding: 5px,10px;
+    background-color: $bg-color;
+    border: solid 1px darken(red, 50%);
+}
+
+@mixin mediaQuery($pantalla) {
+    @if $pantalla == mobile {
+        @media only screen and (max-width: 500px ){
+            @content;
+        }
+            
+    };
+    @if $pantalla == tablet {
+        @media only screen and (max-width: 780px){
+            @content;
+        }
+    }
+    @if $pantalla == desktop {
+        @media only screen and (max-width: 1024px){
+            @content;
+        }
+    }
+    
+}
+
+/* CONDICIONALES */
+
+/* 
+    @if condicion{
+        pasa esto
+    } @ else{
+        pasa esto
+    }
+
+*/

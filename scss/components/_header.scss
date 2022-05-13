@@ -1,13 +1,15 @@
 .header{
-    color: $color-principal;
+    color: map-get($colores, color-secundario);
     background-color: pink;
 
     .navbar{
         display: flex;
         justify-content: space-around;
+        
 
         li{
             background-color: violet;
+            font-size: map-get($tamanio-tipografia, parrafos );
         }
 
     }

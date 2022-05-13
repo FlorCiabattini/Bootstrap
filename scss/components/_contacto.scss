@@ -1,4 +1,13 @@
 .formulario{
     background-color: green;
     width: $tamanio-total;
-}
+};
+
+
+
+@include mediaQuery (mobile){
+    .formulario{
+       background-color: green; 
+    }
+    
+};
