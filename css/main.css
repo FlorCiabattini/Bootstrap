@@ -1,40 +1,246 @@
 /* MAPS */
 /* EXTEND */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap");
 /* MIXIN */
 /* @include  */
-/* CONDICIONALES */
-/* 
-    @if condicion{
-        pasa esto
-    } @ else{
-        pasa esto
-    }
+.form {
+  width: 500px;
+  justify-content: center;
+  margin-bottom: 60px;
+  height: 50%;
+  width: 50%;
+}
 
+.form {
+  width: 90%;
+  margin: auto;
+  max-width: 400px;
+  border-radius: 1em;
+  padding: 3.5em 1.5em;
+}
 
+.formContainer {
+  width: 100%;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%;
+}
 
+.formTitle {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 0.4em;
+}
 
+.formInput {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.8em 16px;
+  outline: none;
+  border: none;
+  border: 1px solid #bbb0b0;
+  border-radius: 0.2 em;
+}
 
+.formInput--message {
+  resize: none;
+  padding: 1.8em 1em;
+  margin-bottom: 0.5em;
+}
 
+.formCta {
+  font-family: inherit;
+  font-size: 1rem;
+  background-color: #089fe0;
+  color: #fff;
+  border: none;
+  font-weight: 300;
+  padding: 0.7em 0;
+  border-radius: 0.2em;
+  cursor: pointer;
+  font-weight: 400;
+}
 
+.footer {
+  color: #bbb0b0;
+  background: #333;
+  padding: 1em;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
 
-*/
-.formulario {
-  background-color: green;
-  width: 10%; }
+.__footer {
+  border: dashed;
+  border-width: 5px;
+  height: 100%;
+  width: 100%;
+}
 
-@media only screen and (max-width: 500px) {
-  .formulario {
-    background-color: green; } }
+.footer h2 {
+  font-size: 35px;
+}
+
+.social__media__list__item {
+  display: inline-grid;
+  padding: 10px 50px 10px 50px;
+  margin-bottom: 20px;
+}
+
+.sobremiFoto {
+  max-height: 39rem;
+}
+
+.imagenPrincipal {
+  right: 0%;
+  left: 0%;
+  width: 100%;
+}
+
+.indexFoto {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-item {
+  max-height: 39rem;
+}
+
+.gallery {
+  z-index: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  width: 90%;
+  margin: auto;
+  grid-gap: 10px;
+  padding: 40px;
+  overflow: hidden;
+}
+
+.gallery a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.gallery img {
+  width: 100%;
+  vertical-align: top;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+.gallery a:hover img {
+  filter: blur(2px);
+  transform: rotate(10deg) scale(1.3);
+}
+
+.imagenPrincipal {
+  right: 0%;
+  left: 0%;
+  width: 100%;
+}
+
+.indexFoto {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  overflow-x: hidden;
+  background-color: #e1f0eb;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  line-height: 1.3em;
+  padding: 20px 0;
+}
+
+h2 {
+  text-align: center;
+  color: beige;
+  padding: 4rem 0;
+}
+
+.logoNati {
+  height: 50px;
+  width: 50px;
+}
+
+#menu a {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+#menu button {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  background-color: #e1f0eb;
+}
+
+.navbar {
+  background: #d4e9e2;
+  align-items: center;
+}
+
+.natti__image {
+  text-align: center;
+  height: 50%;
+  width: 50%;
+}
 
 .header {
-  color: blue;
-  background-color: pink; }
-  .header .navbar {
-    display: flex;
-    justify-content: space-around; }
-    .header .navbar li {
-      background-color: violet;
-      font-size: 14px; }
+  font-size: 20px;
+  padding: 10px;
+}
 
-.header ul {
-  background-color: aqua; }
+/* Hover */
+.navbar ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.4s linear;
+  border-radius: 5px;
+}
+
+.navbar ul li a:hover {
+  background: #b6feeb;
+}
+
+.logoNati {
+  align-items: center;
+}
+
+.natiword {
+  color: pink;
+}
+
+.sobremiFoto {
+  text-align: center;
+  height: 50%;
+  width: 50%;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 768px) {
+  #media_image-3 {
+    position: static !important;
+    width: 100%;
+    text-align: center;
+    margin-top: 160px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,36 @@
+
+.carousel-item{
+    max-height: 39rem;
+
+}
+
+.gallery{
+    z-index: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    width: 90%;
+    margin: auto;
+    grid-gap: 10px;
+    padding: 40px;
+    overflow: hidden;
+}
+
+.gallery a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+
+.gallery img{
+    width: 100%;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.gallery a:hover img{
+    filter: blur(2px);
+    transform: rotate(10deg) scale(1.3);
+}

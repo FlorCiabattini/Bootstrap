@@ -1,8 +1,8 @@
-$color-principal: pink;
-
-$tamanio-total: 10%;
 
 /* MAPS */
+
+
+
 
 $tamanio-tipografia:(
     titulos: 24px,
@@ -12,10 +12,16 @@ $tamanio-tipografia:(
     
 );
 
+
+$color-fondo: #e1f0eb;
+
+$color-letra: #333;
+
+
 $colores: (
-    color-principal: green,
-    color-secundario: blue,
-    color-tercero: red,
+    color-nav: #d4e9e2,
+    color-fondo: #e1f0eb,
+    color-letra: #333,
 );
 
 $redesSociales:(
@@ -25,13 +31,6 @@ $redesSociales:(
 
 );
 
-/* @each $redSocial, $color in $redesSociales{
-    .icon-#($redSocial){
-        color: $brandcolor;
-        font-size: 14px;
-    }
-};
- */
 
 
 /* EXTEND */
@@ -86,13 +85,3 @@ $redesSociales:(
     
 }
 
-/* CONDICIONALES */
-
-/* 
-    @if condicion{
-        pasa esto
-    } @ else{
-        pasa esto
-    }
-
-*/

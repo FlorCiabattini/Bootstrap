@@ -1,0 +1,50 @@
+
+.logoNati{
+    height: 50px;
+    width: 50px;
+}
+
+#menu a{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+#menu button{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar-toggler{
+    background-color: $color-fondo;
+}
+
+.navbar{
+    background: #d4e9e2;
+    align-items: center;
+}
+
+.natti__image{
+    text-align: center;
+    height: 50%;
+    width: 50%;
+
+}
+
+.header {
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* Hover */
+
+.navbar ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navbar ul li a:hover{
+    background:#b6feeb;
+}

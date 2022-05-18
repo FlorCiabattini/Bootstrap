@@ -1,0 +1,29 @@
+
+.footer{
+    color: #bbb0b0;
+    background: #333;
+    padding: 1em;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.__footer{
+    border: dashed;
+    border-width: 5px;
+    height: 100%;
+    width: 100%;
+    
+}
+.footer h2{
+    font-size: 35px;
+}
+
+
+.social__media__list__item{
+    display: inline-grid;
+    padding: 10px 50px 10px 50px;
+    margin-bottom: 20px;
+    
+}

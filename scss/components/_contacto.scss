@@ -1,13 +1,63 @@
-.formulario{
-    background-color: green;
-    width: $tamanio-total;
-};
+
+.form{
+    width: 500px;
+    justify-content: center;
+    margin-bottom: 60px;
+    height: 50%;
+    width: 50%;
+}
 
 
 
-@include mediaQuery (mobile){
-    .formulario{
-       background-color: green; 
-    }
+
+.form {
+    width: 90%;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+}
     
-};
+.formContainer {
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+    
+.formTitle {
+
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: .4em;
+}
+
+.formInput {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .8em 16px;
+    outline: none;
+    border: none;
+    border: 1px solid #bbb0b0;
+    border-radius: 0.2 em;
+}
+
+.formInput--message {
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+}
+
+.formCta {
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: #089fe0;
+    color: #fff;
+    border: none;
+    font-weight: 300;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+    font-weight: 400;
+}
+
