@@ -109,7 +109,7 @@
 }
 
 .gallery {
-  z-index: 0;
+  z-index: 0px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   width: 90%;
@@ -240,6 +240,17 @@ h2 {
     width: 100%;
     text-align: center;
     margin-top: 160px;
+  }
+
+  #gallery {
+    z-index: 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    width: 100%;
+    margin: auto;
+    grid-gap: 10px;
+    padding: 18px;
+    overflow: hidden;
   }
 }
 .body-404 {
