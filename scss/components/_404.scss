@@ -1,0 +1,53 @@
+
+.body-404 {
+    margin: 0px;
+    font-family: $fonts;
+    background-image: $color-fondo;
+
+}
+
+.h1-404 {
+    margin: 0px;
+    text-shadow: 1px 2px 3px grey;
+}
+
+.error-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 100px);
+    width: 100%;
+}
+
+.error-message__contain {
+    text-align: center;
+    color: white;
+
+    .h1-404 {
+        font-size: 60px;
+    }
+
+    .p-404 {
+        font-size: 25px;
+        text-shadow: 1px 2px 3px grey;
+    }
+}
+
+
+.footer-404{
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+    width: 100%;
+}
+
+.footer-404 a{
+    color: white;
+    text-shadow: 1px 2px 3px grey;;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 30px;
+    text-decoration: none;
+    text-align: center;
+}
